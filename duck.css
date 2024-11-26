@@ -1,0 +1,97 @@
+.container.duck{
+
+    .squareRed {
+        width: 75px;
+        height: 75px;
+        background-color: #DB4545;
+        transform: rotate(45deg);
+        left: 55%;
+        top: 22%;
+        transition: all 0.5s ease-in-out;
+    
+    }
+    
+    .triangleGreen {
+        width: 0;
+        height: 0;
+        border-bottom: 107px solid #519e30;
+        border-right: 107px solid transparent;
+        position: absolute;
+        transform: rotate(225deg);
+        top: 51%;
+        left: 40.3%;
+        transition: all 0.5s ease-in-out;
+    
+    }
+    
+    .triangleOrange {
+        width: 0;
+        height: 0;
+        border-bottom: 53px solid orange;
+        border-left: 53px solid transparent;
+        border-right: 53px solid transparent;
+        position: absolute;
+        transform: rotate(deg);
+        top: 78.3%;
+        left: 28.5%;
+        transition: all 0.5s ease-in-out;
+    
+    }
+    
+    .triangleYellow {
+        width: 0;
+        height: 0;
+        border-top: 150px solid transparent;
+        border-right: 150px solid #fef69d;
+        position: absolute;
+        transform: rotate(deg);
+        left: 20%;
+        top:47%;
+        z-index: 3000;
+        transition: all 0.5s ease-in-out;
+    
+    }
+    
+    .trapezePurple {
+        width: 103px; 
+        height: 54px; 
+        background-color: #f4b0ed; 
+        /* transform: skew(315deg) ; */
+        position: absolute;
+        top: 40%;
+        left: 48.5%;
+        transform: rotate(45deg) skew(45deg);
+        transition: all 0.5s ease-in-out;
+    
+    }
+    
+    .triangleLime {
+        width: 0;
+        height: 0;
+        border-top: 150px solid transparent;
+        border-right: 150px solid #84f998;
+        position: absolute;
+        transform: rotate(45deg);
+        z-index: 8000;
+        top: 30.8%;
+        left: 13.5%;
+        transition: all 0.5s ease-in-out;
+    
+    }
+    
+    .triangleBlue {
+        width: 0;
+        height: 0;
+        border-top: 53px solid transparent;
+        border-bottom: 53px solid transparent;
+        border-left: 53px solid #84c2f9;
+        position: absolute;
+        transform: rotate(-90deg);
+        left: 69%;
+        top: 24.2%;
+        transition: all 0.5s ease-in-out;
+    
+    }
+    
+    }
+    

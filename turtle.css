@@ -1,0 +1,95 @@
+.container.turtle{
+
+.squareRed {
+    width: 75px;
+    height: 75px;
+    background-color: #DB4545;
+    transform: rotate(45deg);
+    left: 80.2%;
+    top: 42.8%;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.triangleGreen {
+    width: 0;
+    height: 0;
+    border-bottom: 107px solid #519e30;
+    border-right: 107px solid transparent;
+    position: absolute;
+    transform: rotate(246deg);
+    top: 62.2%;
+    left: 52.6%;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.triangleOrange {
+    width: 0;
+    height: 0;
+    border-bottom: 53px solid orange;
+    border-left: 53px solid transparent;
+    border-right: 53px solid transparent;
+    position: absolute;
+    transform: rotate(37deg);
+    top: 25.9%;
+    left: 27.8%;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.triangleYellow {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid #fef69d;
+    position: absolute;
+    transform: rotate(315deg);
+    left: 41%;
+    top: 35%;
+    z-index: 3000;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.trapezePurple {
+    width: 104px; 
+    height: 53px; 
+    background-color: #f4b0ed; 
+    transform: rotate(-66deg)skew(315deg);
+    position: absolute;
+    top: 19.2%;
+    left: 60%;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.triangleLime {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid #84f998;
+    position: absolute;
+    transform: rotate(135deg);
+    z-index: 8000;
+    top: 35%;
+    left: 41%;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.triangleBlue {
+    width: 0;
+    height: 0;
+    border-top: 53px solid transparent;
+    border-bottom: 53px solid transparent;
+    border-left: 53px solid #1AA6D9;
+    position: absolute;
+    transform: rotate(81deg);
+    left: 28.6%;
+    top: 54.9%;
+    transition: all 0.5s ease-in-out;
+
+}
+
+}
